@@ -4,11 +4,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/*body {
-  margin: 60px auto;
-  max-width: 800px;
-}*/
-
 h1,
 h2,
 h3 {
@@ -93,4 +88,25 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .project-link {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .home-paragraphs {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
 }
